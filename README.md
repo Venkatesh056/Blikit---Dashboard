@@ -1,72 +1,159 @@
-🛒 Blinkit Grocery Sales Analysis Dashboard
-📌 Project Overview
-This project presents a comprehensive Sales Performance Analysis Dashboard for Blinkit (India's last-minute grocery delivery app).
+# 🛒 Blinkit Grocery Sales Analysis Dashboard
 
-The dashboard provides insights into sales trends, outlet performance, product categories, and customer ratings to support data-driven business decisions.
+## 📊 Project Overview
+This project presents a comprehensive Sales Performance Analysis Dashboard for Blinkit – India’s last-minute grocery delivery platform.
 
-Built using Power BI, this project transforms raw grocery sales data into meaningful business intelligence.
+The dashboard transforms raw grocery sales data into actionable business insights, enabling stakeholders to monitor performance, understand customer preferences, and evaluate outlet-level sales trends.
 
-🎯 Business Objective
-The goal of this project is to:
+Built using Power BI, this project focuses on interactive visualization, KPI monitoring, and data-driven decision making for retail analytics.
 
-Analyze overall sales performance
-Identify top-performing product categories
-Compare outlet performance across location tiers
-Understand the impact of fat content on sales
-Evaluate outlet types based on revenue, ratings, and visibility
-Track outlet establishment growth trends over time
-📊 Key KPIs
-💰 Total Sales: $1.20M
-📦 Total Items Sold: 8,523
-💵 Average Sales per Item: $141
-⭐ Average Customer Rating: 3.9
-📈 Key Insights
-Tier 3 outlets generate the highest revenue compared to Tier 1 and Tier 2.
+---
+
+## 📷 Dashboard Preview
+
+(Add your dashboard screenshot here)
+
+![Blinkit Dashboard](images/blinkit_dashboard.png)
+
+Example Folder Structure
+
+Blinkit-PowerBI-Dashboard
+│
+├── BLINKIT.pbix
+├── images
+│   └── blinkit_dashboard.png
+└── README.md
+
+---
+
+## 🎯 Business Objectives
+
+The goal of this project is to analyze Blinkit’s grocery sales performance and provide insights into:
+
+• Overall sales performance  
+• Product category contribution to revenue  
+• Outlet performance across location tiers  
+• Impact of fat content on product sales  
+• Revenue distribution across outlet types  
+• Outlet establishment trends over time  
+• Customer satisfaction through ratings  
+
+---
+
+## 📌 Key Performance Indicators (KPIs)
+
+💰 Total Sales: $1.20M  
+📦 Total Items Sold: 8,523  
+💵 Average Sales per Item: $141  
+⭐ Average Customer Rating: 3.9  
+
+These KPIs provide a quick overview of overall business performance and operational efficiency.
+
+---
+
+## 📈 Key Business Insights
+
+🏪 Outlet Performance  
+Tier 3 outlets generate the highest revenue compared to Tier 1 and Tier 2 locations.
+
+🛍 Product Categories  
+Fruits and Snacks categories contribute the highest share of sales.
+
+🥗 Fat Content Analysis  
+Low-fat products outperform regular products in overall sales revenue.
+
+🏬 Outlet Type Contribution  
 Supermarket Type 1 contributes the largest share of total sales.
-Low-fat products outperform regular products in total revenue.
-2018 shows peak outlet establishment growth.
-Fruits and Snacks categories generate the highest sales among item types.
-🛠 Tools & Technologies Used
-Power BI
-DAX (Data Analysis Expressions)
-Excel (Data Source)
-Power Query (Data Cleaning & Transformation)
-📂 Dataset Information
-The dataset includes:
 
-Item Type
-Fat Content
-Outlet Type
-Outlet Location Tier
-Outlet Size
-Sales Amount
-Item Visibility
-Rating
-Outlet Establishment Year
-📊 Dashboard Features
-✔ Interactive filters (Outlet Location, Size, Item Type)
-✔ KPI Summary Cards
-✔ Fat Content Analysis
-✔ Item Type Sales Comparison
-✔ Outlet Location Tier Performance
-✔ Outlet Type Performance Table
-✔ Year-wise Establishment Trend
+📅 Outlet Growth Trend  
+The year 2018 shows peak outlet establishment growth.
 
-🧠 DAX Measures Used
+---
+
+## 📊 Dashboard Features
+
+✔ Interactive filters (Outlet Location, Outlet Size, Item Type)  
+✔ KPI summary cards for quick insights  
+✔ Fat content sales analysis  
+✔ Item type sales comparison  
+✔ Outlet location tier performance analysis  
+✔ Outlet type performance breakdown  
+✔ Year-wise outlet establishment trend visualization  
+
+The dashboard allows users to explore insights interactively and identify patterns quickly.
+
+---
+
+## 🛠 Tools & Technologies Used
+
+Power BI – Data visualization and dashboard development  
+Power Query – Data cleaning and transformation  
+DAX (Data Analysis Expressions) – Calculations and KPI metrics  
+Microsoft Excel – Data source
+
+---
+
+## 🧠 Key DAX Measures
+
 Total Sales = SUM(Sales)
+
 Average Sales = AVERAGE(Sales)
+
 Total Items = COUNT(Item)
+
 Average Rating = AVERAGE(Rating)
-🚀 How to Use
-Download the .pbix file
-Open using Power BI Desktop
-Interact with filters to explore insights
-📌 Conclusion
-This dashboard demonstrates how business data can be transformed into actionable insights using Power BI.
 
-It showcases strong data visualization, KPI tracking, and business-oriented analysis suitable for Data Analyst roles.
+---
 
-👤 Author
-Debashis Sen
-Aspiring Data Analyst
-Skilled in SQL | Power BI | Excel | Python
+## 📂 Dataset Description
+
+The dataset contains the following attributes:
+
+Item Type – Product category  
+Fat Content – Low Fat / Regular  
+Outlet Type – Store format  
+Outlet Location Tier – Tier 1, Tier 2, Tier 3  
+Outlet Size – Small, Medium, Large  
+Sales – Revenue generated  
+Item Visibility – Product visibility index  
+Rating – Customer rating  
+Outlet Establishment Year – Year outlet was established
+
+---
+
+## 🚀 How to Use
+
+1. Download the .pbix file from this repository  
+2. Open it using Power BI Desktop  
+3. Use the interactive filters to explore different insights and trends  
+
+---
+
+## 📌 Project Impact
+
+This project demonstrates how retail business data can be transformed into meaningful insights using Power BI.
+
+It highlights skills in:
+
+• Data visualization  
+• Business intelligence  
+• KPI tracking  
+• Retail analytics  
+• Dashboard storytelling  
+
+The dashboard helps stakeholders identify revenue drivers, optimize product strategies, and improve operational performance.
+
+---
+
+## 👨‍💻 Author
+
+Venkatesh Dhanabalan  
+
+Aspiring Data Analyst / AI Engineer  
+
+Skills:  
+Power BI | SQL | Python | Machine Learning | Data Visualization
+
+---
+
+⭐ If you found this project useful, consider giving this repository a star.
